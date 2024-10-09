@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './stopwatch.css'
 
 const StopWatch = () => {
-
+    //use state
     const [time, setTime] = useState({hr: 0, min: 0 , sec: 0,milli: 0})
     const [status, setStatus] =useState()
 
